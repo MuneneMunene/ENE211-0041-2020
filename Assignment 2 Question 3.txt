@@ -2,7 +2,8 @@
 In the scenario you described, we can use inheritance to create a base class for all students that includes common properties like name, age, and ID.
 We can then create derived classes for each type of student, such as ICT, Law, and Business.
 These derived classes will inherit the properties and methods of the base class as well as their own unique properties and methods.
-Furthermore, because BSC-IT is divided into three stages, another level of inheritance can be used to create a base class for BSC-IT students that contains the properties and methods shared by all three stages. Then, for each stage of BSC-IT, we can create three derived classes that derive from the BSC-IT base class but have their own distinct properties and methods.*/
+Furthermore, because BSC-IT is divided into three stages, another level of inheritance can be used to create a base class for BSC-IT students that contains the properties and methods shared by all three stages. 
+Then, for each stage of BSC-IT, we can create three derived classes that derive from the BSC-IT base class but have their own distinct properties and methods.*/
 
 #include <iostream>
 using namespace std;
